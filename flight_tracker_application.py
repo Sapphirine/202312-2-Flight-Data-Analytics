@@ -546,12 +546,15 @@ def extract_data(test=True, debug=True):
 
 def app1():
     flights_data = extract_data(DEPLOYED, DEBUG)
+    while not flights_data:
+        flights_data = extract_data(DEPLOYED, DEBUG)
     pagination = flights_data["pagination"]
+    print(pagination)
     data = flights_data["data"]
 
     df = spark.createDataFrame(data, schema=json_schema)
     # Run this if you're running into rate limit issues
-    # df = df.limit(20)
+    df = df.limit(20)
     df = df.select(*[col(k).alias(col_map[k]) for k in col_map])
 
     # applying UDFs to the df
