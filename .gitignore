@@ -2,3 +2,4 @@ dat_files/
 *.txt
 *.csv
 *.json
+.DS_Store
