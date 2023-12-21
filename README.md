@@ -1,4 +1,4 @@
-![Alt text](https://raw.githubusercontent.com/aqid98/ClimatePredictionChallenges/main/Images/el-nino.jpeg)
+![Alt text](el-nino.jpeg)
 
 # Flight Tracker with Weather Risk Assessment
 
