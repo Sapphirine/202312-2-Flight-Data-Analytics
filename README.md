@@ -1,4 +1,4 @@
-![Alt text](el-nino.jpeg)
+![Alt text](airplane.jpg)
 
 # Flight Tracker with Weather Risk Assessment
 
