@@ -555,6 +555,7 @@ def app1():
     df = spark.createDataFrame(data, schema=json_schema)
     # Run this if you're running into rate limit issues
     df = df.limit(20)
+
     df = df.select(*[col(k).alias(col_map[k]) for k in col_map])
 
     # applying UDFs to the df

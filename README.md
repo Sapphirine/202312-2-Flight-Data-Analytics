@@ -1,4 +1,8 @@
+![Alt text](https://raw.githubusercontent.com/aqid98/ClimatePredictionChallenges/main/Images/el-nino.jpeg)
+
 # Flight Tracker with Weather Risk Assessment
+
+Submitted by: Shriniket Buche (ssb2215), Simran Padam (sdp2158), Harsh Benahalkar (hb2776)
 
 This is the code repository for the EECS 6893: Big Data Analysis
 final project Flight Data Analytics. This project includes 
